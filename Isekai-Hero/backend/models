@@ -1,0 +1,11 @@
+from pydantic import BaseModel
+
+class Hero(BaseModel):
+    id: int
+    nombre: str
+    nivel: int = 1
+    experiencia: int = 0
+    fuerza: int = 5
+    defensa: int = 5
+    agilidad: int = 5
+    magia: int = 5
