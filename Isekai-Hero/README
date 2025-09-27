@@ -1,0 +1,13 @@
+# Isekai-Hero
+
+Un RPG multijugador para Telegram donde cada jugador controla su héroe a través de un bot.
+
+## Estructura del proyecto
+- **main.py** → punto de entrada
+- **bots/** → lógica de los bots de Telegram
+- **backend/** → lógica del servidor, base de datos y modelos
+
+## Cómo ejecutar
+1. Instala dependencias:
+   ```bash
+   pip install -r requirements.txt
